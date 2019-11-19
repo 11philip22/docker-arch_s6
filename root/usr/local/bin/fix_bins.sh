@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/env sh
 
 #Fix the link that S6 Overlay blew away
 if [ ! -L "/bin" ]; then
