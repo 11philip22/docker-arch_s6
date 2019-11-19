@@ -22,4 +22,4 @@ echo -e "\e[32m[INFO] Creating folders \e[0m"
 mkdir -p /config /defaults
 
 echo -e "\e[32m[INFO] Creating user \e[0m"
-useradd -u 1000 -U -d -s /sbin/nologin user
+useradd -u 1000 -U -s /sbin/nologin user
