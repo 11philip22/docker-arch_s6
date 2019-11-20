@@ -18,8 +18,12 @@ echo -e "\e[32m[INFO] Cleanup build depandancies \e[0m"
 pacman -Rs tar --noconfirm
 pacman -Scc --noconfirm
 
+echo -e "\e[32m[INFO] Creating user \e[0m"
+useradd -u 1000 -U -d /home/user -m -s /sbin/nologin user
+
 echo -e "\e[32m[INFO] Creating folders \e[0m"
 mkdir -p /config /defaults
 
-echo -e "\e[32m[INFO] Creating user \e[0m"
-useradd -u 1000 -U -d /home/user -m -s /sbin/nologin user
+echo -e "\e[32m[INFO] Fixing permissions \e[0m"
+chown -R user:user /config
+chown -R user:user /defaults
