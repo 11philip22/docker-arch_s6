@@ -14,6 +14,7 @@ This is a base image used for my other containers. It has a user called "user" u
 
 ## Parameters
 | Parameter | Function |
+| :----: | --- |
 | `-e PUID=1000` | UID for the user: user |
 | `-e PGID=1000` | GID for the user: user |
 
