@@ -6,7 +6,7 @@ ArchLinux base image with s6 overlay
 <https://www.archlinux.org/about/>
 
 ## What is the s6 overlay
-<https://skarnet.org/software/s6/>
+<https://skarnet.org/software/s6/>  
 <https://github.com/just-containers/s6-overlay>
 
 ## Why?
